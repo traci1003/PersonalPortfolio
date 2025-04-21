@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad-py" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4B8BBE;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#306998;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad-py)" />
+  
+  <!-- Python logo representation -->
+  <g transform="translate(400, 250)">
+    <!-- Blue section -->
+    <path d="M-120,-60 L40,-60 C70,-60 90,-40 90,-10 L90,40 C90,70 70,90 40,90 L-40,90 L-40,40 L-120,40 C-150,40 -170,20 -170,-10 L-170,-10 C-170,-40 -150,-60 -120,-60 Z" fill="#306998" />
+    
+    <!-- Yellow section -->
+    <path d="M40,-90 L-40,-90 C-70,-90 -90,-70 -90,-40 L-90,10 C-90,40 -70,60 -40,60 L40,60 L40,10 L120,10 C150,10 170,-10 170,-40 L170,-40 C170,-70 150,-90 120,-90 L40,-90 Z" fill="#FFD43B" />
+    
+    <!-- Circles -->
+    <circle cx="-100" cy="-10" r="20" fill="#FFD43B" />
+    <circle cx="100" cy="-40" r="20" fill="#306998" />
+  </g>
+  
+  <text x="400" y="500" font-family="Arial" font-size="30" fill="#333" text-anchor="middle">Python Repository</text>
+</svg>

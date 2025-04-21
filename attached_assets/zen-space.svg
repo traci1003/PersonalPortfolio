@@ -1,0 +1,17 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="400" fill="#f3f4f6" />
+  
+  <!-- Background elements -->
+  <circle cx="200" cy="200" r="150" fill="#e0f2fe" opacity="0.5" />
+  <circle cx="600" cy="200" r="150" fill="#dbeafe" opacity="0.5" />
+  
+  <!-- Zen circle -->
+  <circle cx="400" cy="200" r="120" fill="none" stroke="#3b82f6" stroke-width="8" />
+  
+  <!-- Moon symbol -->
+  <path d="M450 160 C420 130, 380 130, 350 160 C320 190, 320 230, 350 260 C380 290, 420 290, 450 260 C430 270, 400 270, 380 250 C360 230, 360 190, 380 170 C400 150, 430 150, 450 160 Z" 
+    fill="#6366f1" />
+  
+  <!-- Text -->
+  <text x="400" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1e3a8a">ZenSpace</text>
+</svg>
